@@ -1,2 +1,2 @@
 # kulina_er
-Back-end Preliminary Testeliminary Test
+Back-end Preliminary Test
