@@ -1,0 +1,14 @@
+n = input("Deret fibonacci mau sampai suku ke berapa?: ")
+n = int(n)
+
+a = 1
+b = 1
+c = a + b
+x = [a, b, c]
+
+for i in range(0,n,1):
+    a = b
+    b = c
+    c = a + b
+    x.append(c)
+print(x)
