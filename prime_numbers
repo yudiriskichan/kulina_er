@@ -1,0 +1,13 @@
+x = input("Deret bilangan asli akan dievaluasi sampai suku ke? : ")
+x = int(x)
+
+angkaPrima = []
+
+for mungkinPrima in range (2,x):
+    apakahPrima = True
+    for num in range (2, mungkinPrima):
+        if (mungkinPrima % num == 0):
+            apakahPrima = False
+    if apakahPrima:
+        angkaPrima.append(mungkinPrima)
+print(angkaPrima)
