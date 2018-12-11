@@ -1,0 +1,5 @@
+x = 1345679
+x = str(x)
+
+for i in range(0,len(x)):
+    print(x[i] + str(0)*(len(x)-1-i))
